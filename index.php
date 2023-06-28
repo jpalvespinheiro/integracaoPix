@@ -17,7 +17,7 @@ $obPayload = (new Payload)->setPixKey('03962262130')
 //código de pagamento pix
 $payloadQrCode = $obPayload->getPayload();
 
-//QR code 
+
 $obQrCode = new QrCode($payloadQrCode);
 
 //Imagem gerada do QR code 
